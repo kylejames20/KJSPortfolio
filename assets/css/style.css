@@ -4,53 +4,86 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: grey;
 }
 
-/* Style the header */
 .header {
   text-align: center;
   font-size: 10px;
-  background-size: cover;
+  position: relative;
+  /* background-size: cover;
   width: 100%;
-  height: 20%;
-  justify-content: space-evenly;
-  flex-direction: row;
+  height: 20%; */
+  /* justify-content: space-evenly;
+  flex-direction: row; */
   color: white;
 }
 
-p {
-    color: white;
+#Landscape {
+    width: 100%;
+    height: 400px;
+    position: relative;
 }
-li {
-    float: left;
-    padding-right: 6%;
-    padding-left: 6%;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: black;
-}
-li:hover {
-  background-color: yellow;
-  cursor: pointer;
-  text-decoration-color: black;
+
+.thinkin {
+    /* object-position: left; */
+    height: 250px;
+    width: 275px;
+    /* margin-left: 0px; */
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border: 3px solid white;
   }
 
-  a {
-      text-decoration: none;
-      color: black;
-  }
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
+  #coolsub {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
       background-color: white;
+      color: grey;
+      height: 20%;
+      width: 20%;
+      font-size: 400%;
+      text-align: center;
+      vertical-align: middle;
   }
+/* .header img {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+p {
+  color: white;
+}
+li {
+  float: left;
+  padding-right: 6%;
+  padding-left: 6%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+}
+li:hover {
+  background-color: white;
+  cursor: pointer;
+  text-decoration-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
 
 .navbar {
   background-color: black;
-  text-align: left;
   border-bottom: black;
   height: 20rem;
   width: 100%;
@@ -58,7 +91,8 @@ li:hover {
   justify-content: space-evenly;
   list-style: none;
   font-size: 200%;
-  color: white;
+  color: grey;
+  
 }
 
 /* Style the footer */
@@ -68,57 +102,77 @@ li:hover {
   text-align: center;
 }
 
-
 .work,
 .aboutme,
 .contactme,
 .resume {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 30px;
 }
 
-.aboutme > h2 {
-  margin-left: 70px;
-  width: 15%;
-  border-right: 3px solid black;
-  text-align: right;
+#aboutme-p {
+    padding-left: 30px;
+    max-width: 50%;
 }
+
+.aboutme > h2, 
+.work > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  border-right: 5px solid black;
+  padding-right: 50px;
+  /* justify-content: space-between;
+        align-items: stretch; 
+        font-family: DM Serif Display; */
+  /* margin-left: 70px;
+  width: 15%;
+  border-right: 3px solid black; */
+}
+
 
 .work > h2 {
   width: 15%;
   border-right: 3px solid black;
-  height: 100px;
   margin-left: 70px;
   text-align: right;
 }
 
+figure {
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.biggerpic {
+    width: 96%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.smallerpic {
+    width: 45%;
+    height: 300px;
+    flex-wrap: wrap;
+}
 .flexbox-container {
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
   min-width: 15%;
   max-width: 15%;
-  
+  padding-left: 30px;
 }
-.rkymtns {
-  max-height: 250px;
-  width: 100%;
-  object-fit: cover;
-}
-.boutme,
+/* .boutme,
 .coding,
 .resumepic,
 .getatme {
   min-height: 5px;
   flex-shrink: 5px;
-}
+} */
 
 #resize {
   width: 400px;
   height: auto;
 }
 
-/* first eleemnt inssside the flexbox container  */
-
-
+/* first element inside the flexbox container  */
