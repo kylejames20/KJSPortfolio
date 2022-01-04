@@ -36,7 +36,6 @@ body {
 .thinkin {
   height: 250px;
   width: 275px;
-  /* margin-left: 0px; */
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -55,6 +54,7 @@ body {
   text-align: inherit;
   vertical-align: middle;
 }
+
 li {
   float: left;
   padding-right: 6%;
@@ -74,6 +74,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -85,6 +86,7 @@ ul {
 p {
   color: black;
 }
+
 .work,
 .aboutme,
 .contactme,
@@ -105,12 +107,6 @@ p {
   text-align: right;
   border-right: 5px solid black;
   padding-right: 50px;
-  /* justify-content: space-between;
-        align-items: stretch; 
-        font-family: DM Serif Display; */
-  /* margin-left: 70px;
-  width: 15%;
-  border-right: 3px solid black; */
 }
 
 .work > h2 {
@@ -119,10 +115,6 @@ p {
   margin-left: 70px;
   text-align: right;
 }
-
-/* figure {
-  justify-content: space-between; */
-/* margin: 10px; */
 
 .biggerpic {
   width: 94.2%;
@@ -140,27 +132,11 @@ p {
   border: 3px solid black;
 }
 .flexbox-container {
-  /* display: flex; */
   flex-wrap: wrap;
-  /* height: fit-content; */
   min-width: 75%;
   max-width: 75%;
   padding: 30px;
 }
-
-.contactlinks {
-  /* padding-right: 20%;
-  margin-right: 15%;
-  margin-left: 15%; */
-  /* display: flex;
-  justify-content: space-between; */
-  /* display: inline;
-  flex-direction: column; */
-}
-
-/* section div ul li a {
-    display: inline-block;
-} */
 
 #resize {
   width: 400px;
