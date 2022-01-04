@@ -11,6 +11,6 @@ This repository is a portfolio that leads employers to the work I have created.
 
 Below, find attached links to Github repository and deployed finished project.
 
-![Portfolio site screen shot](./assets/images/Portfolio-screenshot.png)
+![Portfolio site screen shot](./assets/images/kyle-portfolio.png)
 
 [Live link to site](https://kylejames20.github.io/KJSPortfolio/)
