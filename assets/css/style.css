@@ -11,7 +11,7 @@ body {
 
 .header {
   text-align: center;
-  font-size: 10px;
+  font-size: 5px;
   position: relative;
 }
 
@@ -25,6 +25,7 @@ body {
   list-style: none;
   font-size: 200%;
   color: grey;
+  font-size: 10px;
 }
 
 #Landscape {
